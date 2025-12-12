@@ -1,0 +1,51 @@
+name: medreport_app
+description: Medical Report Analyzer - AI-powered medical report analysis with multi-language support
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Firebase
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.16.0
+  
+  # AI & API
+  google_generative_ai: ^0.4.3
+  http: ^1.1.0
+  
+  # File handling
+  image_picker: ^1.0.4
+  file_picker: ^8.0.0
+  syncfusion_flutter_pdf: ^25.1.35
+  
+  # UI & Text
+  flutter_markdown: ^0.6.18
+  flutter_tts: ^4.0.2
+  
+  # Audio
+  audioplayers: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # Assets section for images, icons, and other files
+  assets:
+    - assets/images/
+    - assets/icons/
+  
+  # Fonts section (uncomment and customize as needed)
+  # fonts:
+  #   - family: Roboto
+  #     fonts:
+  #       - asset: assets/fonts/Roboto-Regular.ttf
+  #       - asset: assets/fonts/Roboto-Bold.ttf
+  #         weight: 700

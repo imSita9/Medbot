@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "186361028018",
+    "project_id": "medbot-77a4a",
+    "storage_bucket": "medbot-77a4a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186361028018:android:94d1703c005afbc48418ab",
+        "android_client_info": {
+          "package_name": "com.medreport.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxKjdo1wkRp_03_BXYrdJmyR4pSmwc3vI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

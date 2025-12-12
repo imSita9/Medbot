@@ -1,0 +1,1 @@
+// Empty file - AuthService is now in main.dart
