@@ -9,9 +9,14 @@ dependencies:
   flutter:
     sdk: flutter
   
-  # Firebase
-  firebase_core: ^2.24.0
-  firebase_auth: ^4.16.0
+  # Authentication & Storage
+  shared_preferences: ^2.2.2
+  
+  # Environment Variables
+  flutter_dotenv: ^5.1.0
+  
+  # Network connectivity
+  connectivity_plus: ^6.0.5
   
   # AI & API
   google_generative_ai: ^0.4.3
@@ -28,6 +33,9 @@ dependencies:
   
   # Audio
   audioplayers: ^6.0.0
+  
+  # File system
+  path_provider: ^2.1.1
 
 dev_dependencies:
   flutter_test:
@@ -41,6 +49,7 @@ flutter:
   assets:
     - assets/images/
     - assets/icons/
+    - .env
   
   # Fonts section (uncomment and customize as needed)
   # fonts:
